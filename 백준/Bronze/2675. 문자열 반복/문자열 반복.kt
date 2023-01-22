@@ -5,8 +5,7 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val t = readLine().toInt()
 
     repeat(t) {
-        val (re: String, str: String) = readLine()
-            .split(" ")
+        val (re: String, str: String) = readLine().split(" ")
         var result = ""
 
         for (char in str) {
