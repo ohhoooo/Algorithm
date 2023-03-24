@@ -13,11 +13,11 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
         val twoXY = (sortedList[3].first - sortedList[1].first) * (sortedList[3].first - sortedList[1].first) + (sortedList[3].second - sortedList[1].second) * (sortedList[3].second - sortedList[1].second)
         val threeXY = (sortedList[2].first - sortedList[0].first) * (sortedList[2].first - sortedList[0].first) + (sortedList[2].second - sortedList[0].second) * (sortedList[2].second - sortedList[0].second)
         val fourXY = (sortedList[3].first - sortedList[2].first) * (sortedList[3].first - sortedList[2].first) + (sortedList[3].second - sortedList[2].second) * (sortedList[3].second - sortedList[2].second)
-        val diagonalOneFirst = sortedList[3].second - sortedList[0].second
-        val diagonalOneSecond = sortedList[3].first - sortedList[0].first
-        val diagonalTwoFirst = sortedList[2].first - sortedList[1].first
-        val diagonalTwoSecond = sortedList[1].second - sortedList[2].second
-        if(diagonalOneFirst * diagonalOneFirst + diagonalOneSecond * diagonalOneSecond == diagonalTwoFirst * diagonalTwoFirst + diagonalTwoSecond * diagonalTwoSecond) {
+        val diagonalOneY = sortedList[3].second - sortedList[0].second
+        val diagonalOneX = sortedList[3].first - sortedList[0].first
+        val diagonalTwoX = sortedList[2].first - sortedList[1].first
+        val diagonalTwoY = sortedList[1].second - sortedList[2].second
+        if(diagonalOneY * diagonalOneY + diagonalOneX * diagonalOneX == diagonalTwoX * diagonalTwoX + diagonalTwoY * diagonalTwoY) {
             if(oneXY == twoXY && twoXY == threeXY && threeXY == fourXY && oneXY == fourXY) {
                 println(1)
             }else {
