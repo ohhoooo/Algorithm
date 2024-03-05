@@ -1,5 +1,4 @@
 func solution(_ n:Int) -> Int {
-    
     var answer = 0
     
     if n == 0 { return 0 } else if n == 1 { return 1 }
@@ -10,7 +9,5 @@ func solution(_ n:Int) -> Int {
         }
     }
     
-    answer += n
-    
-    return answer
+    return answer + n
 }
