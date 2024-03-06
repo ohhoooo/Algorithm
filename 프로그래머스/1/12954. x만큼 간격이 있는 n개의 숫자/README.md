@@ -1,10 +1,10 @@
 # [level 1] x만큼 간격이 있는 n개의 숫자 - 12954 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12954?language=swift) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12954) 
 
 ### 성능 요약
 
-메모리: 16.8 MB, 시간: 0.08 ms
+메모리: 16.7 MB, 시간: 0.07 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 2일 23:32:56
+2024년 03월 06일 15:04:21
 
 ### 문제 설명
 
