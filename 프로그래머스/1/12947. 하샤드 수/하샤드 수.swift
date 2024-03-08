@@ -7,5 +7,5 @@ func solution(_ x:Int) -> Bool {
         tempX /= 10
     }
     
-    if x % digitSumX == 0 { return true } else { return false }
+    return x % digitSumX == 0 ? true : false
 }
