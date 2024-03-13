@@ -10,11 +10,7 @@ func solution(_ left:Int, _ right:Int) -> Int {
             }
         }
         
-        if count % 2 == 0 {
-            answer += i
-        } else {
-            answer -= i
-        }
+        answer += (count % 2 == 0) ? i : -i
     }
     
     return answer
