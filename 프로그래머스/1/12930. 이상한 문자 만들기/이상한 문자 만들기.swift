@@ -6,23 +6,14 @@ func solution(_ s:String) -> String {
         let ascii = Int(UnicodeScalar(String(c))!.value)
         
         if ascii == 32 {
-            index = 0
             answer += " "
-        } else if index % 2 == 0 {
-            if ascii >= 65 && ascii <= 90 {
-                answer += String(c)
-            } else {
-                answer += String(UnicodeScalar(ascii - 32)!)
-            }
-            
-            index += 1
+            index = 0
         } else {
-            if ascii >= 65 && ascii <= 90 {
-                answer += String(UnicodeScalar(ascii + 32)!)
+            if index % 2 == 0 {
+                answer += (ascii >= 65 && ascii <= 90) ? String(c) : String(UnicodeScalar(ascii - 32)!)
             } else {
-                answer += String(c)
+                answer += (ascii >= 65 && ascii <= 90) ? String(UnicodeScalar(ascii + 32)!) : String(c)
             }
-            
             index += 1
         }
     }
