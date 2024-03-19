@@ -1,10 +1,10 @@
 # [level 1] 가장 가까운 같은 글자 - 142086 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/142086?language=swift) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/142086) 
 
 ### 성능 요약
 
-메모리: 17.6 MB, 시간: 34.48 ms
+메모리: 17.7 MB, 시간: 34.69 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 02월 29일 11:34:00
+2024년 03월 19일 23:14:07
 
 ### 문제 설명
 

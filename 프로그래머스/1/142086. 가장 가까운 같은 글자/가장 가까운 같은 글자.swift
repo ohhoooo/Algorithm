@@ -1,5 +1,5 @@
 func solution(_ s:String) -> [Int] {
-    var answer: [Int] = []
+    var answer = Array<Int>()
     let sArr = s.map { String($0) }
     
     for index in 0...sArr.count-1 {
